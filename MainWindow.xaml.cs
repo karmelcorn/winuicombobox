@@ -40,6 +40,7 @@ public sealed partial class MainWindow : Window
             new Tuple<string, FontFamily>("Times New Roman", new FontFamily("Times New Roman"))
         };
 
+// set initial index
     public Bindable<int> SelectedIndex = new Bindable<int>(2);
 
 }
